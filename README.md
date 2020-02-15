@@ -10,16 +10,21 @@ Next cells are already available: Linear, Conv1D, Conv2D, Conv3D(and transposed 
 
 ADNN class does all unroll operations under ADNN cells. It will work as common Forward network if unroll set to zero.
 
-
 For more details read the original article.
+
+## Requirements
+
+  - PyTorch >= 1.3.0
+
+
+## Installation
+
+Just run: python setup.py install
 
 ## Using
 
 Read the classes descriptions in adnn.py and adnn_cell.py. It's well documented.
 
-## Installation
-
-Just run: python setup.py install
 
 ## Testing
 
