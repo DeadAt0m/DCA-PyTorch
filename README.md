@@ -11,6 +11,7 @@ ADNN cell class implements all logic for handling forward pass on a par with inv
 Next cells are already available: Linear, Conv1D, Conv2D, Conv3D(and transposed versions), however new ones may implemented using provided _ADNNBaseCell interface.
 
 ADNN class does all unroll operations under ADNN cells:
+
     1. It can be incorporated in any part of your network
     2. Required memory and perfomance are linear depend of unroll value. So, add aditional iterations wisely.
     3. It will work as common forward network if unroll set to zero.
