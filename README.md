@@ -30,11 +30,14 @@ For more details read the original article.
 Just run: python setup.py install
 
 ## Using
+   
+   *import dcapytorch* - import all necessary modules: ADNN, ADNN\*Cell
+   I recommend the read the classes descriptions in adnn.py and adnn_cell.py. It's well documented.
 
-Read the classes descriptions in adnn.py and adnn_cell.py. It's well documented.
-
+## Examples
+   *./tests/test_dca.py* - contains examples of using ADNN in the wild.
 
 ## Testing
 
 Some unit tests provided by next command: python setup.py tests.
-You can also refer to them as examples of using module in the wild(test_dca.py)
+
